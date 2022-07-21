@@ -1,0 +1,19 @@
+
+public class argument {
+
+	public static void main(String[] args) {
+		int i; 
+		System.out.println("you can enter a number in the argument");
+			 i = Integer.parseInt (args[0]);
+			 	System.out.println("You enter the number " + i);
+	 	
+			 	if (i % 2 == 0) {
+			 	
+			 	System.out.print( i + " is an even number");
+			 	}
+			 	else 
+			 	System.out.println(i + " is an odd number.");
+	}
+	
+	
+}
